@@ -7,9 +7,15 @@ services:
         autoconfigure: true
         public: false
 
-    App\:
-        resource: '../src/*'
+    App\Namespace1\:
+        resource: '../src/Namespace1'
 
-    App\Controller\:
-        resource: '../src/Controller'
+    App\Namespace2\:
+        resource: '../src/Namespace2'
+
+    App\Namespace1\Controller\:
+        resource: '../src/Namespace1/Controller'
         tags: ['controller.service_arguments']
+
+    # This is required otherwise it will fail
+    # App\Namespace1\Dashboard\DashboardBlockBuilderInterface: '@App\Namespace2\Dashboard\DashboardBlockBuilder'

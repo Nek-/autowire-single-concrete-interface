@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Controller;
+namespace App\Namespace1\Controller;
 
-use App\Dashboard\DashboardBuilder;
+use App\Namespace1\Dashboard\DashboardBuilder;
 
 class DashboardController {
     public function __construct(DashboardBuilder $builder) {

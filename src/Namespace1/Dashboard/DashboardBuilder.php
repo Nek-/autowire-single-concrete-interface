@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Dashboard;
+namespace App\Namespace1\Dashboard;
 
 class DashboardBuilder {
     private $blockBuilder;

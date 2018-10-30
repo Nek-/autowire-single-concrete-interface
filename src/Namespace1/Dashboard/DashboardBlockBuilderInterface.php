@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Dashboard;
+namespace App\Namespace1\Dashboard;
 
 
 interface DashboardBlockBuilderInterface {

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Command;
+namespace App\Namespace1\Command;
 
-use App\Dashboard\DashboardBuilder;
+use App\Namespace1\Dashboard\DashboardBuilder;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
